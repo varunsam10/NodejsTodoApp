@@ -5,7 +5,7 @@ if (err){
     console.log('Unable to Connect MongoDB Server');
 }
 console.log('Connected to MongoDB Server');
-const db = client.db('TodoApp') //Important
+const db = client.db('TodoApp'); //Important
 // db.collection('Todos').find().toArray().then((docs)=>{
 //     console.log('Todos');
 //     console.log(JSON.stringify(docs, undefined,2));
